@@ -1,7 +1,7 @@
 //This is how we used callbacks earlier before promises were 
 //introduced. This is how we do it in old school way. 
 function firstMethod(callBack) {
-    setTimeout(function () {
+    setTimeout(() => {
         console.log("1");
         callBack();
     }, 1500);
